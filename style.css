@@ -1,0 +1,114 @@
+:root {
+  --primary: #7B8FA1;
+  --bg:#CFB997;
+  
+  
+ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  font-size: 80%;
+}
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+/* Hero Section */
+.banner-image {
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  border-radius: 4rem;
+}
+
+.card{
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ margin-left: 3rem;
+ margin-right: 3rem;
+ background-color: var(--primary);
+}
+ .card-title {
+  font-weight: 700;
+}
+ #judul{
+  margin-top: 5rem;
+  text-align: center;
+
+}
+
+
+
+.card mb-3{
+  margin-bottom: 5rem;
+}
+
+
+.carousel-inner{
+  border-radius: 1rem;
+}
+
+.carousel{
+  padding: 3rem;
+  align-items: center;
+}
+
+.btn{
+  background-color: var(--bs-body-bg);
+  color: var(bs-dark-text);
+}
+.btn:hover{
+  background-color: #567189;
+  color: #CFB997;
+  
+}
+/* Footer  */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer .socials {
+  padding: 0;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+footer .socials a {
+  color: #493323;
+  margin: 1rem;
+}
+footer .socials a:hover,
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+footer .links a {
+  color: #493323;
+  padding: 1rem 1rem;
+}
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color:  #493323;
+  font-weight: 700;
+}
