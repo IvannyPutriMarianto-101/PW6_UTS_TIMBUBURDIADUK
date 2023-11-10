@@ -15,7 +15,7 @@
       body{
         background-color: #a1b6c6;
       }
-      #tombol{
+      #tombol1{
         margin-top: 8px;
         margin-left: 2px;
       }
@@ -53,6 +53,7 @@
       }
       #buka{
         background-color: #9DB2BF;
+        color:#335585;
       }
       .dark-mode #buka{
         background-color: #2e2b2b;;
@@ -64,6 +65,7 @@
       }
       .dark-mode #judulnaik{
         background-color: #243349;
+        color: #9DB2BF;
       }
       #bestdestination{
         text-align: center;
@@ -83,19 +85,38 @@
         color: #335585;
         background-color: #EBE4D1;
       }
+      #kartu{
+        background-color:#9DB2BF;
+        color: #335585;
+      }
+      .dark-mode #kartu{
+        background-color: #2e2b2b;
+        color: #a1b6c6;
+      }
+      #tombol{
+        border-style: double;
+        border-radius: 5px;
+        border-color: #243349;
+        background-color:#436aa5;
+      }
+      #tombol:hover{
+        letter-spacing: 3px;
+        color:#a1b6c6;
+        background-color: #243349;
+      }
     </style>
   </head>
   <body data-bs-theme="dark">
     <!--NavBar-->
-    <div class="atas">
+    <div class="atas fixed-top">
       <div class="row container-fluid">
           <nav class="navbar navbar-expand-lg navbar-dark shadow-sm nav justify-content-end">
-            <ul class="nav justify-content-end">
+            <ul class="nav justify-content-end" >
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#" id="atas">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#foto" id="atas">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" id="atas">Best Destination</a>
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#destinasi" role="button" aria-expanded="false" id="atas">Best Destination</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#destinasi" id="atas">Historical Places</a></li>
                     <li><hr class="dropdown-divider"></li>
@@ -107,7 +128,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#" id="atas">Link</a>
                 </li>
-                <div class="form-check form-switch mr-1" id="tombol">
+                <div class="form-check form-switch mr-1" id="tombol1">
                   <input class="form-check-input" type="checkbox" id="darkModeToggle">
                   <label class="form-check-label" for="darkModeToggle"></label>
                 </div>
@@ -212,30 +233,30 @@
           <div class="col mb-3" id="colom1">
             <div class="card" style="width: 18rem;">
               <img src="image/card 1.jpeg" class="card-img-top" alt="historical places" id="historicalplaces">
-              <div class="card-body">
+              <div class="card-body" id="kartu">
                 <h5 class="card-title" >Historical Places</h5>
-                <p class="card-text" >Welcome to Panda Picture!! <br>You can access many panda pictures here.<br>Enjoy!</p>
-                <a href="index.html" class="btn btn-primary stretched-link">Check It Out!!</a>
+                <p class="card-text">This is Best Historical Place in Bali!!<br>Enjoy!!!</p>
+                <a href="index.html" class="btn btn-primary stretched-link" id="tombol">Check It Out!!</a>
               </div>
             </div>
           </div>
           <div class="col mb-3" id="colom1">
             <div class="card" style="width: 18rem;" >
               <img src="image/card 2.jpeg" class="card-img-top" alt="bali foods" id="foods">
-              <div class="card-body">
+              <div class="card-body" id="kartu">
                 <h5 class="card-title">Foods</h5>
-                <p class="card-text">Welcome to Panda Family!! <br>You can see many panda family here.<br>Enjoy!</p>
-                <a href="index.html" class="btn btn-primary stretched-link">Check It Out!!</a>
+                <p class="card-text">This is Best Foods in Bali!!<br>Enjoy!!!</p>
+                <a href="index.html" class="btn btn-primary stretched-link" id="tombol">Check It Out!!</a>
               </div>
             </div>
           </div>
           <div class="col mb-3" id="colom1">
             <div class="card" style="width: 18rem;">
               <img src="image/card 3.jpg" class="card-img-top" alt="Beaches" id="beaches">
-              <div class="card-body">
+              <div class="card-body" id="kartu">
                 <h5 class="card-title">Beaches</h5>
-                <p class="card-text">Welcome to Panda Shop!! <br>You can buy many panda merchandise here.<br>Enjoy!</p>
-                <a href="index.html" class="btn btn-primary stretched-link">Check It Out!!</a>
+                <p class="card-text">This is Best Beaches in Bali!!<br>Enjoy!!!</p>
+                <a href="index.html" class="btn btn-primary stretched-link" id="tombol">Check It Out!!</a>
               </div>
             </div>
           </div>

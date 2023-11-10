@@ -13,15 +13,13 @@
   outline: none;
   border: none;
   text-decoration: none;
+  font-family: 'Poppins';
 }
 
 
 html {
   scroll-behavior: smooth;
   font-size: 80%;
-}
-body {
-  font-family: 'Libre Baskerville', serif;
 }
 
 
